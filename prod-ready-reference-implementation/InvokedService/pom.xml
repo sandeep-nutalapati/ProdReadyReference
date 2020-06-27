@@ -10,10 +10,10 @@
 	<artifactId>InvokedService</artifactId>
 
 	<dependencies>
-		<!-- <dependency>
+		<dependency>
 			<groupId>com.deloitte.prod</groupId>
-			<artifactId>ProdDataModel</artifactId>
+			<artifactId>ProdCommon</artifactId>
 			<version>${project.version}</version>
-		</dependency> -->
+		</dependency> 
 	</dependencies>
 </project>
