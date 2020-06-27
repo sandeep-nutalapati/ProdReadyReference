@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.deloitte.prod.model.ProdDetail;
 
 @RestController
-@RequestMapping("/invoked-service")
+//@RequestMapping("/invoked-service")
 public class InvokedController {
 
 	private static final Logger LOG = Logger.getLogger(InvokedController.class.getName());
