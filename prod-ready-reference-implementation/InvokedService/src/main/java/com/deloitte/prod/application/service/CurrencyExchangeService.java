@@ -19,7 +19,7 @@ public class CurrencyExchangeService {
 	private CurrencyExchangeRepo currencyExchangeRepo;
 
 	public ExchangeValue exchage(HttpServletRequest request, String from, String to) {
-		logger.info("{}",request);
+		logger.info("Received request to exchange {}",request);
 		ExchangeValue ev= currencyExchangeRepo.findByFromAndTo(from, to);
 		ev.setPort(request.getServerPort());
 		return ev;

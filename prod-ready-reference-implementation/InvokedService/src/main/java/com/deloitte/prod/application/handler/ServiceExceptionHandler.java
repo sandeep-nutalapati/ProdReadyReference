@@ -13,7 +13,9 @@ import org.springframework.web.context.request.WebRequest;
 
 import com.deloitte.prod.application.model.ErrorResponse;
 
-
+/*
+ * This is the error handler to handle all errors and send the customized response.
+ */
 @ControllerAdvice
 public class ServiceExceptionHandler {
 	private Logger logger = LoggerFactory.getLogger(ServiceExceptionHandler.class);
