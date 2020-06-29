@@ -25,10 +25,10 @@ public class RibbonClientController {
 		
 		String randomString = null;
 		try {
-			randomString= this.restTemplate.getForObject("http://server", String.class);
+			randomString= this.restTemplate.getForObject("http://currency-conversion-service", String.class);
 		}catch (Exception e) {
 			e.printStackTrace();
 		}
-		return "Server Response :: " + randomString;
+		return "Response :: " + randomString;
 	}
 }
