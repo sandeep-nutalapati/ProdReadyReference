@@ -2,8 +2,6 @@ package com.deloitte.prod.controller;
 
 
 import java.math.BigDecimal;
-import java.util.HashMap;
-import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -22,10 +20,8 @@ import org.springframework.web.client.RestTemplate;
 import com.deloitte.prod.model.CurrencyConversionDto;
 import com.deloitte.prod.model.ProdDetail;
 import com.deloitte.prod.service.CurrencyConversionService;
-import com.deloitte.prod.service.proxy.CurrencyExchangeServiceProxyViaZuul;
 
 @RestController
-//@RequestMapping("/invoked-service")
 public class CurrencyConversionController {
 
 	private static final Logger LOG = LoggerFactory.getLogger(CurrencyConversionController.class);
